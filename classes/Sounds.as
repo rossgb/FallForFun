@@ -1,0 +1,1 @@
+﻿package {		import flash.media.SoundChannel;		public class Sounds {		var titleMusic:TitleMusic;		var gameTrack:GameTrack;		var titleMusicChannel:SoundChannel;		var gameMusicChannel:SoundChannel;				public function Sounds() {			titleMusic = new TitleMusic			gameTrack = new GameTrack		}	}}			

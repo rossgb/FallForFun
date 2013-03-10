@@ -1,0 +1,1 @@
+﻿package {	import flash.display.MovieClip;		public class Obsticle extends MovieClip {		var beenHit:Boolean = false;		var dir:Number = Math.round(Math.random());		var resetY:Number;		var resetX:Number;				public function Obsticle(startX:Number, startY:Number){			resetY = startY;			resetX = startX;						y = startY;			x = startX;		}	}}

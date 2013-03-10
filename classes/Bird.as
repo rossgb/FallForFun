@@ -1,0 +1,1 @@
+﻿package {	import flash.display.MovieClip;		public class Bird extends MovieClip {		var beenHit:Boolean = false;		var dir:Number = Math.round(Math.random());		var hvel:Number = Math.round(Math.random()*3+0.5);				public function Bird(startX:Number, startY:Number){			y = startY;			x = startX;		}	}}
